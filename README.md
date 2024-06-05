@@ -1,4 +1,4 @@
-# <details><summary>ProjectMap</summary>
+<details><summary style="font-size: 20px;">TouristMap</summary>
 
 ## Описание
 
@@ -17,8 +17,7 @@
 
 </details>
 
-## Установка и запуск
-
-1. Клонируйте репозиторий:
+## Клонировать
+	Клонируйте репозиторий:
    ```sh
    git clone https://github.com/Ahatzoda-Tehronshoh/Android-Pet-Projects.git
