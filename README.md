@@ -18,6 +18,5 @@
 </details>
 
 ## Клонировать
-	Клонируйте репозиторий:
    ```sh
    git clone https://github.com/Ahatzoda-Tehronshoh/Android-Pet-Projects.git
