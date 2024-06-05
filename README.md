@@ -1,4 +1,4 @@
-<details><summary style="font-size: 20px;">TouristMap</summary>
+<details><summary style="font-size: 55px;">TouristMap</summary>
 
 ## Описание
 
