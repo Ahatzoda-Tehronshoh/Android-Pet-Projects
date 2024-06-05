@@ -2,8 +2,8 @@
 
 ## Описание
 
-Краткое описание проекта.
-![TouristMap](1.1.gif)
+1. TouristMap
+<div style="display: flex; overflow-x: auto;"> <img src="./1.1.gif" alt="Demo 1" width="300" /> <img src="./1.2.gif" alt="Demo 2" width="300" /> <img src="./1.3.gif" alt="Demo 3" width="300" /> </div>` 
 ## Цель
 
 Цель проекта.
