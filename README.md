@@ -1,4 +1,4 @@
-# <details> <summary>ProjectMap</summary>
+<details><summary>ProjectMap</summary>
 
 ## Описание
 
@@ -14,6 +14,8 @@
 - Android SDK
 - Язык программирования (Java/Kotlin)
 - Библиотеки и фреймворки
+
+</details>
 
 ## Установка и запуск
 
