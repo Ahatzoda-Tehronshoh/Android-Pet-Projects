@@ -1,0 +1,17 @@
+{
+  "name": "tjk_guide_server",
+  "version": "1.0.0",
+  "description": "tehrons_server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "Tehron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0"
+  }
+}
