@@ -3,16 +3,15 @@
 ## Описание
 
 1. TouristMap
-<div 
-	 style="display: flex; overflow-x: auto; height: 200px;"> 
-	 <img src="./1.1.gif" alt="Demo 1" style="height: 100%;" /> 
-	 <img src="./1.2.gif" alt="Demo 2" style="height: 100%;" /> 
-	 <img src="./1.3.gif" alt="Demo 3" style="height: 100%;" />
-	 <img src="./1.4.gif" alt="Demo 3" style="height: 100%;" />
-	 <img src="./1.5.gif" alt="Demo 3" style="height: 100%;" />
-	 <img src="./1.6.gif" alt="Demo 3" style="height: 100%;" />
-	 <img src="./1.7.gif" alt="Demo 3" style="height: 100%;" /> 
-</div>
+<table> <tr> 
+	 <td><img src="./1.1.gif" alt="Demo 1" style="height: 200px;"/></td> 
+	 <td><img src="./1.2.gif" alt="Demo 2" style="height: 200px;"/></td> 
+	 <td><img src="./1.3.gif" alt="Demo 3" style="height: 200px;"/></td>
+	 <td><img src="./1.4.gif" alt="Demo 3" style="height: 200px;"/></td>
+	 <td><img src="./1.5.gif" alt="Demo 3" style="height: 200px;"/></td>
+	 <td><img src="./1.6.gif" alt="Demo 3" style="height: 200px;"/></td>
+	 <td><img src="./1.7.gif" alt="Demo 3" style="height: 200px;"/></td> 
+</tr> </table>
 ## Цель
 
 Цель проекта.
