@@ -1,4 +1,4 @@
-<details><summary style="font-size: 40px;">TouristMap</summary>
+<details><summary style="font-size: 40px;">1. TouristMap</summary>
 
 ## Описание - Геоинформационная туристическая система является приложением, разработанным для облегчения и улучшения туристического опыта пользователей. Она предоставляет пользователю доступ к географической информации, связанной с туристическими объектами, достопримечательностями, маршрутами и другими полезными данными.
 
@@ -19,6 +19,117 @@
 - Построение маршрутов:  
 <img src="./ReadMe/1.8.png" alt="Demo 3" style="height: 200px; width: 200px; margin-right: 20px;" /> 
 - Взаимодействие между пользователями()
+
+</details>
+
+<details><summary style="font-size: 40px;">2. Tolib</summary>
+
+## Описание - 
+
+<div style="overflow-x: auto; display: flex; white-space: nowrap; width: 100%;"> <img src="./ReadMe/1.1.gif" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" /></div>
+
+## Используемые технологии
+- Android SDK (Software Development Kit)
+- Kotlin. Jetpack Compose
+- PostgreSQL
+
+## Функционал
+
+</details>
+
+<details><summary style="font-size: 40px;">3. Somoni</summary>
+
+## Описание - 
+
+<div style="overflow-x: auto; display: flex; white-space: nowrap; width: 100%;"> <img src="./ReadMe/1.1.gif" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" /></div>
+
+## Используемые технологии
+- Android SDK (Software Development Kit)
+- Kotlin. Jetpack Compose
+- PostgreSQL
+
+## Функционал
+
+</details>
+
+<details><summary style="font-size: 40px;">4. Bisanj</summary>
+
+## Описание - 
+
+<div style="overflow-x: auto; display: flex; white-space: nowrap; width: 100%;"> <img src="./ReadMe/1.1.gif" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" /></div>
+
+## Используемые технологии
+- Android SDK (Software Development Kit)
+- Kotlin. Jetpack Compose
+- PostgreSQL
+
+## Функционал
+
+</details>
+
+<details><summary style="font-size: 40px;">5. Messenger</summary>
+
+## Описание - 
+
+<div style="overflow-x: auto; display: flex; white-space: nowrap; width: 100%;"> <img src="./ReadMe/1.1.gif" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" /></div>
+
+## Используемые технологии
+- Android SDK (Software Development Kit)
+- Kotlin. Jetpack Compose
+- PostgreSQL
+
+## Функционал
+
+</details>
+
+<details><summary style="font-size: 40px;">6. HealthyLife</summary>
+
+## Описание - 
+
+<div style="overflow-x: auto; display: flex; white-space: nowrap; width: 100%;"> <img src="./ReadMe/1.1.gif" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" /></div>
+
+## Используемые технологии
+- Android SDK (Software Development Kit)
+- Kotlin. Jetpack Compose
+- PostgreSQL
+
+## Функционал
+
+</details>
+
+<details><summary style="font-size: 40px;">7. MusicIn</summary>
+
+## Описание - 
+
+<div style="overflow-x: auto; display: flex; white-space: nowrap; width: 100%;"> <img src="./ReadMe/1.1.gif" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" /></div>
+
+## Используемые технологии
+- Android SDK (Software Development Kit)
+- Kotlin. Jetpack Compose
+- PostgreSQL
+
+## Функционал
+
+</details>
+
+<details><summary style="font-size: 40px;">8. OptimalRoute</summary>
+
+## Описание - Задача построения оптимального маршрута, известная как задача коммивояжера.
+
+<div style="overflow-x: auto; display: flex; white-space: nowrap; width: 100%;"> 
+<img src="./ReadMe/8.0.gif" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" />
+<img src="./ReadMe/8.1.gif" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" />
+<img src="./ReadMe/8.2.gif" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" />
+<img src="./ReadMe/8.3.gif" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" />
+</div>
+
+## Используемые технологии
+- Android SDK
+- Yandex Mapkit
+- Kotlin
+
+## Функционал
+- Создать оптимальный маршрут между точками
 
 </details>
 
