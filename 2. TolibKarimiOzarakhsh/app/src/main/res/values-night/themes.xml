@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TolibKarimiOzarakhsh" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/first_color</item>
+        <item name="colorPrimaryVariant">@color/first_color</item>
+        <item name="colorOnPrimary">@color/white_to_dark_gray</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/roboto_regular_400</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ThemeOverlay.TolibKarimiOzarakhsh.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/gray_200</item>
+        <item name="fullscreenTextColor">@color/text_color</item>
+    </style>
+</resources>

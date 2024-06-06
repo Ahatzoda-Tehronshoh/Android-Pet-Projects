@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    // color_x_y -> color = name, x = (100 .. 1000) - , y = (0 .. 100) -
+    <color name="white_to_dark_gray">#FFFFFFFF</color>
+    <color name="text_color">#606060</color>
+    <color name="first_color">#0C6F9C</color>
+    <color name="gray_700">#606060</color>
+    <color name="gray_700_50">#80606060</color>
+    <color name="gray_500">#999999</color>
+    <color name="gray_200">#F1F3F4</color>
+    <color name="transparent_gray_70">#CCB6D5F4</color>
+    <color name="transparent_gray_70_fix">#CCB6D5F4</color>
+    <color name="transparent">#00B6D5F4</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="status_bar_color">#0C6F9C</color>  //status bar color
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

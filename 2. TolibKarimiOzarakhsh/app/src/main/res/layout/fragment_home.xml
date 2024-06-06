@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_200"
+    tools:context=".ui.fragments.HomeFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_200">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/t_sh"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="@id/image"
+                app:layout_constraintEnd_toEndOf="@id/image"
+                app:layout_constraintStart_toStartOf="@id/image"
+                app:layout_constraintTop_toTopOf="@id/image">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gyj" />
+
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/text_tittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Рӯзгори шоир"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/ruzgor_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/ruzgor_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:paddingHorizontal="20dp"
+                android:text="\t\tАгар гӯем, ки дар ин ду даҳаи охир ва ҳатто се даҳаи охир ҳеч касе ба мисли Озарахш дар таронаву оҳангу шеър дар як сатҳи қабулшуданӣ матраҳ набуд, шояд иштибоҳ накунем. Аз ҷавонӣ суруд месуруд, аввал аз ашъори бузургон: устодон Лоиқ, Бозор Собир, Гулрухсор, Қутбӣ Киром...Ва баъдан шеъру ғазалҳои худро ҳам ба нота кашид. Ва хеле марғуб месарояду мехонад. Шеъраш аз таронаву оҳанг ва таронаву оҳангаш болотар аз шеъраш. Маъруфияти Озарахш шояд беш аз ин аст, ки гуфтем. \n\t\tОЗАРАХШ (Каримов Толиб) 13 августи соли 1963 дар деҳаи Урметани ноҳияи Айнӣ таваллуд ёфтааст. Баъди хатми мактаби миёнаи деҳа, соли 1980, вориди Донишгоҳи давлатии Тоҷикистон (бахши рӯзноманигорӣ) шудааст. Пас аз хатми донишгоҳ, солҳои 1986-1989, муҳаррири Кумитаи давлатии телевизион ва радиои ҷумҳурӣ, 1989-1992 директори Иттиҳодияи эҷодӣ-истеҳсолии «Союзтеатр» дар вилояти Суғд, 1992-2002 муҳаррири телевизиони вилоят будааст. Аз соли 2002 хабарнигори ҳафтаномаҳои «Нақлиёт» ва «Адабиёт ва санъат» дар вилояти Суғд мебошад.
+
+   Муаллифи китоби ашъори «Аз чашмасор омадам», «Намози мусофир», «Чархболи Офтоб», “Девони Ишқ”, “Ватаннома”, “Ояндаҳо”, “Дуруди ишқ ба номат” (мураттиб Саид Ризо)? “Гулпарак” (китоби бачагона) аст, ки дар Душанбе ва Хуҷанд интишор ёфтаанд ва муаллифашонро дар қатори ҷавоншоирони ҳунарманди кишвар мақом бахшидаанд.
+
+   Зиёда аз 10 намоишномаи ӯ дар саҳнаи театрҳои кишвар (хусусан, театри наврасон) пешниҳоди ҳаводорони санъати театрӣ гардидаанд, ки «Сафедор», «Равзанаи умед», «Афсона ё ҳақиқат», «Чашмаи Пардӯш», «Гулҳо намемиранд», «Ҳазордастон», «Нақши Рӯдакӣ» аз он шумуланд.
+
+   Намунаҳое аз ашъораш ба забонҳои русӣ, инглисӣ, фаронсавӣ, руминӣ ва ӯзбекӣ тарҷумаву чоп шудаанд. Шоири шинохтаи Узбекистон, Одил Икром шеърҳои ӯро ба забони ӯзбекӣ тарҷума намуда, китоберо бо номи «Хайрли тонг» тарҷума ва чоп намуд, ки армуғони арзандаест барои аҳли шеъру адаб.
+
+   Дар ҳайати намояндаҳои расмии Тоҷикистон ва гурӯҳҳои фарҳангиву ҳунарӣ дар қитъаи Африко (Гана, Бенин ва Того), кишварҳои Афғонистон, Эрон, Покистон, Ҳиндустон ва Инглистон дастовардаҳои адабиёту санъати тоҷикро тарғиб кардааст.
+
+   Барандаи Ҷоизаи ба номи Камолӣ Хуҷандӣ (барои филми «Ифтихор»), Ҷоизаи байналмилалии Имом Хумайнӣ ва Ҷоизаи «Боргоҳи сухан» аст.
+
+   Соли 2012 бо медали «Хизмати шоиста» мукофотонида шудааст.
+
+   Аз соли 1999 узви Иттифоқи нависандагони Тоҷикистон аст.
+
+   Аз соли 2015 то инҷониб сардабири маҷаллаи “Паёми Суғд” аст.
+
+   Соли 2019 сазовори унвони “Шоири халқии Тоҷикистон” гардидааст.
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_tittle" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/first_color"
+        app:liftOnScroll="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            app:title="Рӯзгори шоир"
+            app:titleCentered="true"
+            app:menu="@menu/home_menu"
+            app:navigationIconTint="@color/white_to_dark_gray"
+            android:paddingEnd="8dp"
+            app:titleTextAppearance="@style/SimpleTabText"
+            app:titleTextColor="@color/white_to_dark_gray" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

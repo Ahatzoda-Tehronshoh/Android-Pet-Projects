@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "619932343846",
+    "project_id": "tolibkarimiozarakhsh",
+    "storage_bucket": "tolibkarimiozarakhsh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619932343846:android:2ba2f6dd2f124bdd9590e7",
+        "android_client_info": {
+          "package_name": "com.tehronshoh.tk_ozarakhsh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619932343846-cr2qu2si6mqvdelpmgc02nmik8psik5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuF9iVYvKK90ketU668V952kVsnqaAirY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619932343846-cr2qu2si6mqvdelpmgc02nmik8psik5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

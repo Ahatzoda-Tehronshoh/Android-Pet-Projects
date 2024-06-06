@@ -1,0 +1,101 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+    id 'androidx.navigation.safeargs.kotlin'
+
+    // the Google services Gradle plugin
+    id 'com.google.gms.google-services'
+
+    // the Crashlytics Gradle plugin
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    namespace 'com.tehronshoh.tk_ozarakhsh'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.tehronshoh.tk_ozarakhsh"
+        minSdk 22
+        targetSdk 33
+        versionCode 2
+        versionName "2.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    /*------------------------------------------------------------------
+                           NAVIGATION COMPONENT
+     -------------------------------------------------------------------*/
+    // Navigation Component
+    implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
+    implementation "androidx.navigation:navigation-ui-ktx:2.5.3"
+
+    /*------------------------------------------------------------------
+                                   ROOM
+     -------------------------------------------------------------------*/
+    def roomVersion = '2.5.1'
+    // Room
+    implementation("androidx.room:room-runtime:$roomVersion")
+    annotationProcessor("androidx.room:room-compiler:$roomVersion")
+    // To use Kotlin annotation processing tool (kapt)
+    kapt("androidx.room:room-compiler:$roomVersion")
+    // optional - Kotlin Extensions and Coroutines support for Room
+    implementation("androidx.room:room-ktx:$roomVersion")
+
+    /*------------------------------------------------------------------
+                                   FIREBASE
+     -------------------------------------------------------------------*/
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:31.3.0')
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+
+    // the dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    implementation 'com.google.android.gms:play-services-ads:21.5.0'
+
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+
+    // the dependencies for the Crashlytics libraries
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    /*------------------------------------------------------------------
+                                   OTHERS
+     -------------------------------------------------------------------*/
+    //ViewBinding
+    implementation 'com.android.databinding:viewbinding:7.4.2'
+
+    //ShimmerLayout from Facebook
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //Splash Screen API
+    implementation 'androidx.core:core-splashscreen:1.0.0'
+}
