@@ -163,7 +163,7 @@ Push-notification:
 ## Описание - Задача построения оптимального маршрута, известная как задача коммивояжера.
 
 <div style="overflow-x: auto; display: flex; white-space: nowrap; width: 100%;"> 
-<img src="./ReadMe/8.0.jpg" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" />
+<img src="./ReadMe/8.0.png" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" />
 <img src="./ReadMe/8.1.jpg" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" />
 <img src="./ReadMe/8.2.jpg" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" />
 <img src="./ReadMe/8.3.jpg" alt="Demo 1" style="height: 400px; width: 200px; margin-right: 20px;" />
