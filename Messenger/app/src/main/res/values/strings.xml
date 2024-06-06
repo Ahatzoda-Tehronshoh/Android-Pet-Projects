@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="search_text">Поиск</string>
+    <string name="cancel">Отмена</string>
+    <string name="message">Сообщение</string>
+    <string name="no_chats" translatable="false">No chats!</string>
+    <string name="change_user_name">Изменить имя пользователя</string>
+    <string name="change_language_app">Изменить язык приложения</string>
+    <string name="change_theme_mode">Изменить темы приложений</string>
+    <string name="update_image">Новое фото</string>
+</resources>

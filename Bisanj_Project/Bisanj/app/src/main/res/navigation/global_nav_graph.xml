@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/global_nav_graph"
+    app:startDestination="@id/splashScreenFragment">
+
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.example.bisanj.screens.splashscreen.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/splashScreenFragment_to_nav_save_name"
+            app:destination="@id/nav_save_name"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/splashScreenFragment_to_flowMenuFragment"
+            app:destination="@id/flowMenuFragment"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true"
+            />
+    </fragment>
+    <include app:graph="@navigation/nav_save_name" />
+    <fragment
+        android:id="@+id/flowMenuFragment"
+        android:name="com.example.bisanj.screens.menu.flowmenu.FlowMenuFragment"
+        android:label="fragment_flow_menu"
+        tools:layout="@layout/fragment_flow_menu"/>
+</navigation>

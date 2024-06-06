@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_save_name"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.bisanj.screens.savenamescreen.start.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/startFragment_to_insertNameFragment"
+            app:destination="@id/insertNameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/insertNameFragment"
+        android:name="com.example.bisanj.screens.savenamescreen.putname.InsertNameFragment"
+        android:label="fragment_insert_name"
+        tools:layout="@layout/fragment_insert_name" />
+</navigation>

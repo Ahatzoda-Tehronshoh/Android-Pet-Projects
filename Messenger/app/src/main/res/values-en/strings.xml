@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="search_text">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="message">Message</string>
+    <string name="change_user_name">Change user name</string>
+    <string name="change_language_app">Change app language</string>
+    <string name="change_theme_mode">Change theme mode</string>
+    <string name="update_image">Change user image</string>
+</resources>

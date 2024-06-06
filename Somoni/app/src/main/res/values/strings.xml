@@ -1,0 +1,43 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name">Сомони</string>
+
+    // Variables for Language ganging
+    <string name="currencyChoose">Выберите валюту</string>
+    <string name="Convert">Конвертация</string>
+    <string name="CurrencyDefault">Валюта по умолчанию</string>
+    <string name="Save">Сохранить</string>
+    <string name="DollarUSD">Доллар США</string>
+    <string name="EUR">Евро</string>
+    <string name="RubleRussian">Российский Рубль</string>
+    <string name="Ruble">Рубль</string>
+    <string name="Usd">Доллар</string>
+    <string name="OptionShowModeCurrency">Опция показа курсов валют</string>
+    <string name="Simple">Простой</string>
+    <string name="SummaDefault">Сумма по умолчанию</string>
+    <string name="Notification">Уведомления</string>
+    <string name="ChangeLanguageApp">Изменить язык программы</string>
+    <string name="WriteInTelegram">Написать в Telegram</string>
+    <string name="Setting">Настройки</string>
+    <string name="SimpleMode">Простой режим</string>
+    <string name="LongMode">Расширенный режим</string>
+    <string name="Currency">Валюта</string>
+    <string name="Buy">Покупка</string>
+    <string name="Sale">Продажа</string>
+    <string name="CurrenciesNBT">Курсы НБТ</string>
+    <string name="ConvertWithnbtCurrency">Конвертировать по курсу от НБТ</string>
+    <string name="BenefitCurrencyfromTranslation">Самый выгодный курс по переводам</string>
+    <string name="convertWithThisCurrency">Ковертировать по этому курсу</string>
+    <string name="Somoni_FirstOnBoardingPreview">Сомони - будет показывать вам самый выгодный курс дня. Также самый выгодный курс по переводам из России в Таджикистан</string>
+    <string name="Next">Дальше</string>
+    <string name="StepFirstFromThird">шаг 1 из 3</string>
+    <string name="WeCanChangeThisLaterInSetting">Вы сможете поменять это позднее, на странице настроек</string>
+    <string name="StepSecondFromThird">шаг 2 из 3</string>
+    <string name="chooseModeShowingCurrency">Выберите режим отображения курса</string>
+    <string name="finish">Готово</string>
+    <string name="BenefitCurrency">Выгодный курс</string>
+    <string name="theme">Тема</string>
+
+</resources>

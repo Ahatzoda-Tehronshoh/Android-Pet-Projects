@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Bisanj</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bisanjname">Бисанч!</string>
+    <string name="start">Огоз кардан!</string>
+    <string name="start_game">Бозӣ кунед ва омӯзед...</string>
+    <string name="info_start">Шумо метавонед донишҳои худро такмил диҳед ва ҳамзамон вақти худро хуш гузаронед. Маҷмӯаи тестҳо барои хонандагон ва довталабон.</string>
+    <string name="save_name">Сохранить</string>
+    <string name="name_save">Номатонро сабт кунед</string>
+    <string name="name">Имя</string>
+    <string name="menu_name">Меню</string>
+    <string name="rating_name">Рейтинг</string>
+    <string name="setting_name">Настройка</string>
+    <string name="lets_play">Let’s play</string>
+    <string name="select_predmet">Фанро интихоб кунед</string>
+    <string name="start_test">START</string>
+    <string name="count_test_choose">Миқдори тестро интихоб кунед:</string>
+    <string name="choose_grade">Синфро интихоб кунед:</string>
+    <string name="grade_default_not_selected">Синфи -</string>
+    <string name="tittle_setting_test_fragment">Танзимкунии тест</string>
+    <string name="back_button_content_description">Back Button</string>
+    <string name="ten">10</string>
+    <string name="twenty">20</string>
+    <string name="thirty">30</string>
+    <string name="count_minute_choose">Вақтро интихоб кунед:</string>
+    <string name="five">5</string>
+    <string name="minute">минут</string>
+    <string name="fifty">15</string>
+    <string name="test_fragmnet_tittle">Математика</string>
+    <string name="next">NEXT</string>
+    <string name="result">Натиҷа</string>
+    <string name="menu">MENU</string>
+    <string name="right_answers">Правильных ответов</string>
+    <string name="right">Правильно</string>
+    <string name="wrong">Неправильно</string>
+    <string name="do_you_want_to_stop_test">Шумо дар ҳақиқат мехоҳед бароед?</string>
+    <string name="when_stop_result_will_not_save">Диққат ҳангоми аз бози баромадан прогресси шумо сабт нахоҳад шуд.</string>
+    <string name="yes">Ҳо</string>
+    <string name="no">Не</string>
+    <string name="point">.</string>
+    <string name="settings">Настройки</string>
+    <string name="notification">Уведомление</string>
+    <string name="fon">Фон</string>
+    <string name="theme">Тема</string>
+    <string name="rate_us">Оценить нас</string>
+
+    <string-array name="grade_list">
+        <item>Синфи 5</item>
+        <item>Синфи 6</item>
+        <item>Синфи 7</item>
+        <item>Синфи 8</item>
+        <item>Синфи 9</item>
+        <item>Синфи 10</item>
+        <item>Синфи 11</item>
+    </string-array>
+
+</resources>

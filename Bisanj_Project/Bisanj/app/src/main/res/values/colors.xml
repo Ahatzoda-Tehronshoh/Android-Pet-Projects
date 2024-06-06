@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#364C97</color>
+    <color name="color_start_button">#F38197</color>
+    <color name="gray">#AFB1B3</color>
+    <color name="back_menu">#EAECED</color>
+    <color name="spinner_color_not_selected">#4D364C97</color>
+    <color name="gradient_start_color">#FF8497</color>
+    <color name="gradient_end_color">#FFC9A5</color>
+    <color name="fifty_white">#80FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="fifteen_background">#26364C97</color>
+    <color name="btn_stroke_color">#33FFC9A5</color>
+    <color name="seventy_background">#B3364C97</color>
+    <color name="black_seventy">#B3000000</color>
+    <color name="black_twenty">#33000000</color>
+    <color name="setting_color">#5568E8</color>
+    <color name="setting_colot_thirty_five">#595568E8</color>
+</resources>

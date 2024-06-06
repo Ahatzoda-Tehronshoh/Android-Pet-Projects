@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#BDB6B6</color>
+    <color name="white">#374760</color>
+
+
+    <color name="selectedOBS">#2D996E</color>
+    <color name="notSelectedOBS">#0F2D85</color>
+    <color name="transparent">#34FFFFFF</color>
+    <color name="nbt_color_background">#374760</color>
+    <color name="item_text_long_mode_colot">#6075E1</color>
+    <color name="item_text_simple_mode_colot">#6075E1</color>
+
+    <color name="nbt_convert_button_color">#9FA4AA</color>
+</resources>

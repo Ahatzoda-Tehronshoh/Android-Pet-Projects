@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboarding_nav_graph"
+    app:startDestination="@id/onBoardingFirst">
+
+    <fragment
+        android:id="@+id/onBoardingFirst"
+        android:name="com.example.somoni.onboarding.OnBoardingFirst"
+        android:label="OnBoardingFirst" >
+        <action
+            android:id="@+id/action_onBoardingFirst_to_onBoardingSecond"
+            app:destination="@id/onBoardingSecond" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingSecond"
+        android:name="com.example.somoni.onboarding.OnBoardingSecond"
+        android:label="OnBoardingSecond" >
+        <action
+            android:id="@+id/action_onBoardingSecond_to_onBoardingThird"
+            app:destination="@id/onBoardingThird" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingThird"
+        android:name="com.example.somoni.onboarding.OnBoardingThird"
+        android:label="fragment_on_boarding_third"
+        tools:layout="@layout/fragment_on_boarding_third" />
+</navigation>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/start" />
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/nested_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            motion:layout_constraintBottom_toTopOf="@id/current_playing_music"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/current_playing_music"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginVertical="24dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/show_music_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="@id/current_playing_music" />
+        <Constraint
+            android:id="@+id/music_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:elevation="8dp"
+            motion:layout_constraintEnd_toEndOf="@id/current_playing_music"
+            motion:layout_constraintStart_toStartOf="@id/current_playing_music"
+            motion:layout_constraintTop_toBottomOf="@id/now_playing_text" />
+        <Constraint
+            android:id="@+id/linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:elevation="8dp"
+            android:gravity="center"
+            motion:layout_constraintEnd_toEndOf="@id/current_playing_music"
+            motion:layout_constraintStart_toStartOf="@id/current_playing_music"
+            motion:layout_constraintTop_toBottomOf="@id/music_image"/>
+        <Constraint
+            android:id="@+id/play_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:elevation="8dp"
+            motion:layout_constraintEnd_toEndOf="@id/visualizator_progress_bar"
+            motion:layout_constraintStart_toStartOf="@id/visualizator_progress_bar"
+            motion:layout_constraintTop_toBottomOf="@id/visualizator_progress_bar" />
+    </ConstraintSet>
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+        <KeyFrameSet>
+            <KeyAttribute
+                android:alpha="0.5"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/current_playing_music" />
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/nested_scroll_view" />
+        </KeyFrameSet>
+        <OnClick
+            motion:clickAction="transitionToEnd"
+            motion:targetId="@+id/current_playing_music" />
+    </Transition>
+</MotionScene>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bisanj"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/odamcha" />
+
+    <TextView
+        android:id="@+id/bisanj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/game"
+        android:layout_alignStart="@+id/game"
+        android:layout_alignEnd="@+id/game"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto"
+        android:text="@string/bisanjname" />
+
+    <TextView
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/info"
+        android:layout_alignStart="@+id/info"
+        android:layout_alignEnd="@+id/info"
+        android:fontFamily="@font/roboto"
+        android:text="@string/start_game"
+        android:textColor="@color/color_start_button"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toinsertName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto"
+        android:textSize="14sp"
+        android:text="@string/info_start" />
+
+    <Button
+        android:id="@+id/toinsertName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/color_start_button"
+        android:fontFamily="@font/roboto"
+        android:text="@string/start" />
+
+</RelativeLayout>

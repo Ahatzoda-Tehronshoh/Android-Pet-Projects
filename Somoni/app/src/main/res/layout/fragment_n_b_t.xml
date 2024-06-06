@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nbt_color_background"
+    tools:context=".NBTFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/qwer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto_bold"
+            android:lineHeight="41dp"
+            android:text="@string/CurrenciesNBT"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/convertWithBTNButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/nbt_convert_button_color"
+            android:elevation="0dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/qwer"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="14dp"
+                    android:src="@drawable/ic_baseline_autorenew_24"
+                    app:tint="#219653" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/ConvertWithnbtCurrency"
+                    android:textColor="#219653"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="307dp"
+            android:layout_margin="16dp"
+            android:background="@color/notSelectedOBS"
+            app:cardCornerRadius="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/convertWithBTNButton"
+            app:layout_constraintVertical_bias="0.0">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmerLayoutNbt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyShortName"
+                        android:layout_width="80dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="10dp"
+                        app:layout_constraintBottom_toTopOf="@id/currencyFullName"
+                        app:layout_constraintStart_toEndOf="@id/cardView"
+                        app:layout_constraintTop_toTopOf="@id/cardView" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyFullName"
+                        android:layout_width="150dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="12dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="16dp"
+                        app:cardCornerRadius="10dp"
+                        app:layout_constraintBottom_toBottomOf="@id/cardView"
+                        app:layout_constraintEnd_toStartOf="@+id/summa"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@id/cardView"
+                        app:layout_constraintTop_toBottomOf="@id/currencyShortName" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/summa"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="15dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/currencyFullName"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cardView"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="20dp"
+                        android:backgroundTint="#ddd"
+                        app:cardCornerRadius="16dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/iconCurrency"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyShortName1"
+                        android:layout_width="80dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toTopOf="@id/currencyFullName1"
+                        app:layout_constraintStart_toEndOf="@id/cardView1"
+                        app:layout_constraintTop_toTopOf="@id/cardView1" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyFullName1"
+                        android:layout_width="150dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="12dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="16dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toBottomOf="@id/cardView1"
+                        app:layout_constraintEnd_toStartOf="@+id/summa1"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@id/cardView1"
+                        app:layout_constraintTop_toBottomOf="@id/currencyShortName1" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/summa1"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/currencyFullName1"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cardView1"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="20dp"
+                        android:backgroundTint="#ddd"
+                        app:cardCornerRadius="16dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/iconCurrency1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyShortName2"
+                        android:layout_width="80dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toTopOf="@id/currencyFullName2"
+                        app:layout_constraintStart_toEndOf="@id/cardView2"
+                        app:layout_constraintTop_toTopOf="@id/cardView2" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyFullName2"
+                        android:layout_width="150dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="12dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="16dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toBottomOf="@id/cardView2"
+                        app:layout_constraintEnd_toStartOf="@+id/summa2"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@id/cardView2"
+                        app:layout_constraintTop_toBottomOf="@id/currencyShortName2" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/summa2"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/currencyFullName2"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cardView2"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="20dp"
+                        android:backgroundTint="#ddd"
+                        app:cardCornerRadius="16dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/iconCurrency2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyShortName3"
+                        android:layout_width="80dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toTopOf="@id/currencyFullName3"
+                        app:layout_constraintStart_toEndOf="@id/cardView3"
+                        app:layout_constraintTop_toTopOf="@id/cardView3" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyFullName3"
+                        android:layout_width="150dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="12dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="16dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toBottomOf="@id/cardView3"
+                        app:layout_constraintEnd_toStartOf="@+id/summa3"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@id/cardView3"
+                        app:layout_constraintTop_toBottomOf="@id/currencyShortName3" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/summa3"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/currencyFullName3"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cardView3"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="20dp"
+                        android:backgroundTint="#ddd"
+                        app:cardCornerRadius="16dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/iconCurrency3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyShortName4"
+                        android:layout_width="80dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toTopOf="@id/currencyFullName4"
+                        app:layout_constraintStart_toEndOf="@id/cardView4"
+                        app:layout_constraintTop_toTopOf="@id/cardView4" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyFullName4"
+                        android:layout_width="150dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="12dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="16dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toBottomOf="@id/cardView4"
+                        app:layout_constraintEnd_toStartOf="@+id/summa4"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@id/cardView4"
+                        app:layout_constraintTop_toBottomOf="@id/currencyShortName4" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/summa4"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/currencyFullName4"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cardView4"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="20dp"
+                        android:backgroundTint="#ddd"
+                        app:cardCornerRadius="16dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/iconCurrency4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyShortName5"
+                        android:layout_width="80dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="8dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toTopOf="@id/currencyFullName5"
+                        app:layout_constraintStart_toEndOf="@id/cardView5"
+                        app:layout_constraintTop_toTopOf="@id/cardView5" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/currencyFullName5"
+                        android:layout_width="150dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="12dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="16dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toBottomOf="@id/cardView5"
+                        app:layout_constraintEnd_toStartOf="@+id/summa5"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@id/cardView5"
+                        app:layout_constraintTop_toBottomOf="@id/currencyShortName5" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/summa5"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="#ddd"
+                        android:lineHeight="22dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/currencyFullName5"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/cardView5"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="20dp"
+                        android:backgroundTint="#ddd"
+                        app:cardCornerRadius="16dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/iconCurrency5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

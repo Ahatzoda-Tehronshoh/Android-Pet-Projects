@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profitableExchangeRateFragment"
+        android:title="Выгодный курс"
+        android:icon="@drawable/ic_bottom_benefit"
+        />
+
+    <item
+        android:id="@+id/NBTFragment"
+        android:title="Курс по НБТ"
+        android:icon="@drawable/ic_bottom_nbt"
+        />
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name">Сомонӣ</string>
+
+
+
+    // Variables for Language ganging
+    <string name="currencyChoose">Асъорро интихоб кунед</string>
+    <string name="Convert">Конвертатсия</string>
+    <string name="CurrencyDefault">Асъори пешфарз</string>
+    <string name="Save">Сохранить</string>
+    <string name="DollarUSD">Доллари ИМА</string>
+    <string name="EUR">Евро</string>
+    <string name="RubleRussian">Рубли русӣ</string>
+    <string name="Ruble">Рубл</string>
+    <string name="Usd">Доллар</string>
+    <string name="OptionShowModeCurrency">Опсияи нишон додани қурби асъор</string>
+    <string name="Simple">Содда</string>
+    <string name="SummaDefault">Сумма по умолчанию</string>
+    <string name="Notification">Огоҳиҳо</string>
+    <string name="ChangeLanguageApp">Забони барномаро тағир диҳед</string>
+    <string name="WriteInTelegram">Ба Telegram нависед</string>
+    <string name="Setting">Танзимот</string>
+    <string name="SimpleMode">Простой режим</string>
+    <string name="LongMode">Расширенный режим</string>
+    <string name="Currency">Асъор</string>
+    <string name="Buy">Харид</string>
+    <string name="Sale">Фурӯш</string>
+    <string name="CurrenciesNBT">Курси БМТ</string>
+    <string name="ConvertWithnbtCurrency">Конвертировать по курсу от НБТ</string>
+    <string name="BenefitCurrencyfromTranslation">Курси аз ҳама баланди интиқол</string>
+    <string name="convertWithThisCurrency">Бо ин курс табдил диҳед</string>
+    <string name="Somoni_FirstOnBoardingPreview">Сомони - будет показывать вам самый выгодный курс дня. Также самый выгодный курс по переводам из России в Таджикистан</string>
+    <string name="Next">Дальше</string>
+    <string name="StepFirstFromThird">шаг 1 из 3</string>
+    <string name="WeCanChangeThisLaterInSetting">Вы сможете поменять это позднее, на странице настроек</string>
+    <string name="StepSecondFromThird">шаг 2 из 3</string>
+    <string name="chooseModeShowingCurrency">Выберите режим отображения курса</string>
+    <string name="finish">Готово</string>
+    <string name="BenefitCurrency">Қурби мусоид</string>
+
+    <string name="theme">Тема</string>
+</resources>

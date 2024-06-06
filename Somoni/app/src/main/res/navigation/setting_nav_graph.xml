@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setting_nav_graph"
+    app:startDestination="@id/mainSettingFragment">
+    <fragment
+        android:id="@+id/mainSettingFragment"
+        android:name="com.example.somoni.setting.MainSettingFragment"
+        android:label="fragment_main_setting"
+        tools:layout="@layout/fragment_main_setting" >
+        <action
+            android:id="@+id/action_mainSettingFragment_to_currencyOptionSettingFragment"
+            app:destination="@id/currencyOptionSettingFragment" />
+        <action
+            android:id="@+id/action_mainSettingFragment_to_modeOptionSettingFragment"
+            app:destination="@id/modeOptionSettingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/currencyOptionSettingFragment"
+        android:name="com.example.somoni.setting.CurrencyOptionSettingFragment"
+        android:label="fragment_currency_option_setting"
+        tools:layout="@layout/fragment_currency_option_setting" />
+    <fragment
+        android:id="@+id/modeOptionSettingFragment"
+        android:name="com.example.somoni.setting.ModeOptionSettingFragment"
+        android:label="fragment_mode_option_setting"
+        tools:layout="@layout/fragment_mode_option_setting" />
+</navigation>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name">Somoni</string>
+
+
+    // Variables for Language ganging
+    <string name="currencyChoose">Select currency</string>
+    <string name="Convert">Conversion</string>
+    <string name="CurrencyDefault">Default currency</string>
+    <string name="Save">Save</string>
+    <string name="DollarUSD">Dollar USA</string>
+    <string name="EUR">Euro</string>
+    <string name="RubleRussian">Russian ruble</string>
+    <string name="Ruble">Ruble</string>
+    <string name="Usd">Dollar</string>
+    <string name="OptionShowModeCurrency">Option to show exchange rates</string>
+    <string name="Simple">Simple</string>
+    <string name="SummaDefault">Default amount</string>
+    <string name="Notification">Notifications</string>
+    <string name="ChangeLanguageApp">Change program language</string>
+    <string name="WriteInTelegram">Write to Telegram</string>
+    <string name="Setting">Settings</string>
+    <string name="SimpleMode">Simple Mode</string>
+    <string name="LongMode">Long Mode</string>
+    <string name="Currency">Currency</string>
+    <string name="Buy">Purchase</string>
+    <string name="Sale">Sale</string>
+    <string name="CurrenciesNBT">Courses NBT</string>
+    <string name="ConvertWithnbtCurrency">Convert at the rate from the NBT</string>
+    <string name="BenefitCurrencyfromTranslation">The most profitable translation course</string>
+    <string name="convertWithThisCurrency">Convert at this rate</string>
+    <string name="Somoni_FirstOnBoardingPreview">Somoni - will show you the most profitable rate of the day. Also the most favorable rate for transfers from Russia to Tajikistan</string>
+    <string name="Next">Next</string>
+    <string name="StepFirstFromThird">Step 1 of 3</string>
+    <string name="WeCanChangeThisLaterInSetting">You can change this later on the settings page.</string>
+    <string name="StepSecondFromThird">Step 2 of 3</string>
+    <string name="chooseModeShowingCurrency">Select course display mode</string>
+    <string name="finish">Ready</string>
+    <string name="BenefitCurrency">Favorable exchange rate</string>
+
+    <string name="theme">Theme</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/menu_icon_background"
+        android:title="" />
+    <item
+        android:id="@+id/ratingFragment"
+        android:icon="@drawable/rating_icon_background"
+        android:title="" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/setting_icon_background"
+        android:title="" />
+</menu>

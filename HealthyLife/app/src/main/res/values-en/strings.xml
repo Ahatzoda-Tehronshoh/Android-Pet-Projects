@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <string name="app_name" translatable="false">Healthy Life</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_description">The most valuable thing in life is time! This app will help you better understand what you have spent your time on</string>
+    <string name="hl" translatable="false">HL</string>
+    <string name="healthy_HAVE_NOT_GOT_TRANSLATE" translatable="false">Healthy</string>
+    <string name="life_HAVE_NOT_GOT_TRANSLATE" translatable="false">Life</string>
+    <string name="control_alcohol">Reduce/control\nalcohol consumption</string>
+    <string name="smoke_control">Reduce/control\ntobacco use</string>
+    <string name="all_life_alcohol">1) Calculate how much I will spend on alcohol in my life</string>
+    <string name="calculate">Calculate</string>
+    <string name="during_the_time">2) Calculate how much I will spend on alcohol for…</string>
+    <string name="how_much_spend_until_current_time_alcohol">3) Calculate how much I have already spent on alcohol</string>
+    <string name="all_life_smoke">1) Calculate how much I will spend on tobacco in my lifetime</string>
+    <string name="during_the_time_smoke">2) Calculate how much I will spend on tobacco for…</string>
+    <string name="how_much_spend_until_current_time_smoke">3) Calculate how much I have already spent on tobacco</string>
+    <string name="choose_app_language">Choose App Language</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="count_on_a_day">How many pieces per day</string>
+    <string name="count_in_pack">How many pieces are in a pack</string>
+    <string name="cost_of_your_one_pack_smoke">How much does a pack of your cigarettes cost</string>
+    <string name="salary">Your monthly salary</string>
+    <string name="experience_smoking">Experience - since when do you smoke</string>
+    <string name="result">Result:</string>
+    <string name="pack">pieces</string>
+    <string name="settings">Settings</string>
+    <string name="year">year</string>
+    <string name="how_year_you_want_to_live">How years do you want to live</string>
+    <string name="did_not_add_text">Field is empty!</string>
+    <string name="did_not_right_text">Field edited wrong!</string>
+    <string name="smoking_after_death">Do you want to start smoking after death?</string>
+
+    <string name="how_old_are_you">How old are you</string>
+    <string name="count_of_days">Count of Days</string>
+    <string name="in_life_you">\"  For life you spend your\"</string>
+    <string name="year_let">\" years \"</string>
+    <string name="and">\"and \"</string>
+    <string name="months">\" months \"</string>
+    <string name="free_worked_for_smoke">free for buying cigarettes.</string>
+    <string name="until_this_year_you">\"  Until this year you spend your\"</string>
+    <string name="during_this_time_you_spend">\"  During this period you spend \"</string>
+    <string name="prot_your_salary">\" % your salary.\"</string>
+    <string name="twenty">20</string>
+</resources>

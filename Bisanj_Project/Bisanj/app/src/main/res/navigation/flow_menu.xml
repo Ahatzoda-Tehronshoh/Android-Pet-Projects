@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flow_menu"
+    app:startDestination="@id/menu">
+
+    <fragment
+        android:id="@+id/ratingFragment"
+        android:name="com.example.bisanj.screens.menu.rating.RatingFragment"
+        android:label="fragment_rating"
+        tools:layout="@layout/fragment_rating" />
+    <include app:graph="@navigation/menu" />
+    <include app:graph="@navigation/setting" />
+</navigation>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.bisanj.screens.menu.main.test.TestFragment"
+        android:label="Тест"
+        tools:layout="@layout/fragment_test">
+        <action
+            android:id="@+id/action_testFragment_to_resultTestFragment"
+            app:destination="@id/resultTestFragment"
+            app:popUpToInclusive="false" />
+        <argument
+            android:name="subjectName"
+            android:defaultValue="notFile"
+            app:argType="string" />
+        <argument
+            android:name="grade"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsTestFragment"
+        android:name="com.example.bisanj.screens.menu.main.settingstest.SettingsTestFragment"
+        android:label="SettingsTestFragment"
+        tools:layout="@layout/fragment_setting_test">
+        <action
+            android:id="@+id/action_settingsTestFragment_to_testFragment"
+            app:destination="@id/testFragment"
+            app:enterAnim="@anim/enter_fragment_anim"
+            app:exitAnim="@anim/exit_fragment_anim"
+            app:popExitAnim="@anim/pop_exit_fragment_anim"
+            app:popUpTo="@id/settingsTestFragment" />
+        <argument
+            android:name="subjectName"
+            android:defaultValue="notSubject"
+            app:argType="string" />
+    </fragment>
+    <action
+        android:id="@+id/action_settingsTestFragment_to_testFragment"
+        app:destination="@id/testFragment"
+        app:enterAnim="@anim/enter_fragment_anim"
+        app:exitAnim="@anim/exit_fragment_anim"
+        app:popExitAnim="@anim/pop_exit_fragment_anim"
+        app:popUpTo="@id/settingsTestFragment" />
+    <fragment
+        android:id="@+id/resultTestFragment"
+        android:name="com.example.bisanj.screens.ResultTestFragment"
+        android:label="fragment_result_test"
+        tools:layout="@layout/fragment_result_test">
+        <argument
+            android:name="listOfTestsWithAnswers"
+            app:argType="com.example.bisanj.screens.Test[]" />
+        <action
+            android:id="@+id/action_resultTestFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.bisanj.screens.menu.main.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_settingsTestFragment"
+            app:destination="@id/settingsTestFragment" />
+    </fragment>
+</navigation>

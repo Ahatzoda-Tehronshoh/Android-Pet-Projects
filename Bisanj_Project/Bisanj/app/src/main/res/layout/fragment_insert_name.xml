@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.savenamescreen.putname.InsertNameFragment">
+    <ImageView
+        android:id="@+id/bisanj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_name_bisanj"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/name_saves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bisanj"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="@string/name_save"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/inputname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/name_saves"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="12sp"
+        android:textColorHint="@color/gray"
+        android:autoSizeTextType="uniform"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/rubik_medium"
+        android:hint="@string/name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/save_name"
+        style="@style/CardView.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/inputname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/background"
+        android:text="@string/save_name" />
+</RelativeLayout>

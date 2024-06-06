@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Healthy Life</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_description">Самое ценное в жизни это - время! Это приложение поможет вам лучше понимать на что вы потратили свое время</string>
+    <string name="hl" translatable="false">HL</string>
+    <string name="healthy_HAVE_NOT_GOT_TRANSLATE" translatable="false">Healthy</string>
+    <string name="life_HAVE_NOT_GOT_TRANSLATE" translatable="false">Life</string>
+    <string name="control_alcohol">Сократить/контролировать\nупотребление алкоголя</string>
+    <string name="smoke_control">Сократить/контролировать\nупотребление табака</string>
+    <string name="all_life_alcohol">1)Посчитать сколько я за жизнь потрачу на алкоголь</string>
+    <string name="calculate">Посчитать</string>
+    <string name="during_the_time">2)Посчитать сколько потрачу на алкоголь за…</string>
+    <string name="how_much_spend_until_current_time_alcohol">3)Посчитать сколько потратил уже на алкоголь</string>
+    <string name="all_life_smoke">1)Посчитать сколько я за жизнь потрачу на табак</string>
+    <string name="during_the_time_smoke">2)Посчитать сколько потрачу на табак за…</string>
+    <string name="how_much_spend_until_current_time_smoke">3)Посчитать сколько потратил уже на табак</string>
+    <string name="choose_app_language">Язык</string>
+    <string name="night_mode">Тёмная тема</string>
+    <string name="count_on_a_day">Сколько штук в день</string>
+    <string name="count_in_pack">Сколько штук в пачке</string>
+    <string name="cost_of_your_one_pack_smoke">Сколько стоит пачка ваших сигарет</string>
+    <string name="salary">Ваша зарплата в месяц</string>
+    <string name="experience_smoking">Стаж - со скольки куришь</string>
+    <string name="result">Результат : </string>
+    <string name="pack">штук</string>
+    <string name="settings">Настройки</string>
+    <string name="year">лет</string>
+    <string name="how_year_you_want_to_live">Сколько хотите прожить</string>
+    <string name="did_not_add_text">Поля не заполнена!</string>
+    <string name="did_not_right_text">Поля не правильно заполнена!</string>
+    <string name="smoking_after_death">Вы хотите начать курить после смерти?</string>
+    
+    <string name="how_old_are_you">Сколько вам лет</string>
+    <string name="count_of_days">Количество дней</string>
+    <string name="in_life_you">\"  За жизнь вы \"</string>
+    <string name="year_let">\" лет \"</string>
+    <string name="and">\"и \"</string>
+    <string name="months">\" месяцев \"</string>
+    <string name="free_worked_for_smoke">бесплатно проработаете за сигареты.</string>
+    <string name="until_this_year_you">\"  До этого года вы \"</string>
+    <string name="during_this_time_you_spend">\"  За этот период вы уже потратили \"</string>
+    <string name="prot_your_salary">\" % вашей зарплаты.\"</string>
+    <string name="twenty">20</string>
+</resources>

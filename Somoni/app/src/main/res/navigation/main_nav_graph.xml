@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/benefit_kurs"
+    app:startDestination="@id/profitableExchangeRateFragment">
+    <fragment
+        android:id="@+id/profitableExchangeRateFragment"
+        android:name="com.example.somoni.profitable.ProfitableExchangeRateFragment"
+        android:label="fragment_profitable_exchange_rate"
+        tools:layout="@layout/fragment_profitable_exchange_rate" >
+        <action
+            android:id="@+id/action_profitableExchangeRateFragment_to_NBTFragment"
+            app:destination="@id/NBTFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/NBTFragment"
+        android:name="com.example.somoni.NBTFragment"
+        android:label="fragment_n_b_t"
+        tools:layout="@layout/fragment_n_b_t" />
+</navigation>
